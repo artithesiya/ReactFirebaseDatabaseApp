@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695697754301",
+    "project_id": "react-database-demo-e42f6",
+    "storage_bucket": "react-database-demo-e42f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695697754301:android:1c2c19a69eab76d6954fd4",
+        "android_client_info": {
+          "package_name": "com.demoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--l79gxt9DkxWg3RYpigxFeTZrd7iNFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
