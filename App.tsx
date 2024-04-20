@@ -6,10 +6,11 @@
  */
 
 import React, { useState } from 'react';
-import Home from './HomeScreen/Home';
-import Show from './HomeScreen/Show';
+import Home from './Home';
+import Show from './Show';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
+import Update from './Update';
 
 const App = (): React.JSX.Element => {
   const Stack = createNativeStackNavigator();
@@ -23,6 +24,10 @@ const App = (): React.JSX.Element => {
          <Stack.Screen
           name="Show"
           component={Show}
+        />
+         <Stack.Screen
+          name="Update"
+          component={Update}
         />
       </Stack.Navigator>
     </NavigationContainer>
